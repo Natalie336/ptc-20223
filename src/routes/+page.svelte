@@ -1,12 +1,18 @@
 <script>
-	import Button from "../componets/button.svelte";
+	import Question from "../components/question.svelte";
+import Score from "../components/score.svelte";
 
 </script>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<!-- svelte-ignore a11y-missing-attribute -->
-<a href="/about"> go to my about page</a>
+<Score />
+<Score score={14} /> 
 
-<Button>Hello World</Button>
-
+<Question 
+	number={1}
+	answer1="First answer"
+	answer2="Second answer"
+	answer3="Third answer"
+	answer4="All of the above"
+	>
+	This is my question?
+</Question>
