@@ -13,11 +13,7 @@
 </p>
 {/if}
 
-<script>
-    export let Answer = true;
-</script>
-
-{#if answer}
+<Answer answer={true} />
 
 <p>
     Great job - that was the answer!
@@ -26,4 +22,4 @@
 <p>
     oh man, that answer wasn't quite right...
 </p>
-{/if}
+
