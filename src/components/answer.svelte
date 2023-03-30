@@ -1,14 +1,9 @@
 <script>
-    export let anwser = false;
+	export let answer = false;
 </script>
 
 {#if answer}
-
-<p>
-    Great job - that was the answer!
-</p>
+	<p>Great job - that was the answer!</p>
 {:else}
-<p>
-    oh man, that answer wasn't quite right...
-</p>
-{/if} 
+	<p>oh man, that answer wasn't quite right...</p>
+{/if}
