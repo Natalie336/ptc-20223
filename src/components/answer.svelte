@@ -3,7 +3,14 @@
 </script>
 
 {#if answer}
-	<p>Great job - that was the answer!</p>
+
+<div style="color: green;"> 
+		Great job - that was the answer! 
+</div>
+	
 {:else}
-	<p>oh man, that answer wasn't quite right...</p>
+	
+	<div style="color: red;">
+		oh man, that answer wasn't quite right...
+	</div>
 {/if}

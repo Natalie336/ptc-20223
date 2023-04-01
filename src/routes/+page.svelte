@@ -16,7 +16,9 @@ import Score from "../components/score.svelte";
 	answer4="Fourth answer"
 	answer="a"
 	>
+<div style="text-decoration: underline">
 	This is my question?
+</div>
 </Question>
 
 <Question 
@@ -27,7 +29,9 @@ import Score from "../components/score.svelte";
 	answer4="Fourth answer"
 	answer="b"
 	>
+	<div style="text-decoration: underline">
 	This is my question?
+	</div>
 </Question>
 
 <Question 
@@ -38,7 +42,9 @@ import Score from "../components/score.svelte";
 	answer4="Fourth answer"
 	answer="c"
 	>
+	<div style="text-decoration: underline">
 	This is my question?
+	</div>
 </Question>
 
 <Question 
@@ -49,5 +55,7 @@ import Score from "../components/score.svelte";
 	answer4="Fourth answer"
 	answer="d"
 	>
+	<div style="text-decoration: underline">
 	This is my question?
+	</div>
 </Question>
