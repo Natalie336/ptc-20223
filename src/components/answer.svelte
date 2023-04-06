@@ -4,13 +4,15 @@
 
 {#if answer}
 
-<div style="color: green;"> 
+<p style="color: green;"> 
 		Great job - that was the answer! 
-</div>
+</p>
 	
 {:else}
 	
-	<div style="color: red;">
+	<p style="color: red;">
 		oh man, that answer wasn't quite right...
-	</div>
+	</p>
 {/if}
+
+
