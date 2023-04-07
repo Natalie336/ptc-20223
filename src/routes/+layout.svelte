@@ -11,7 +11,7 @@
         position: absolute;
         inset: 0;
 
-        background-color:lightblue
+        background-color:rgba(126, 210, 221, 0.596)
     }
 
     .layout {

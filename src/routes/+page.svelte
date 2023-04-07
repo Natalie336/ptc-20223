@@ -11,7 +11,7 @@ import Score from "../components/score.svelte";
 <Question 
 	number={1}
 	answer1="First answer"
-	answer2="Second answer"
+	answer2="Second Answer"
 	answer3="Third answer"
 	answer4="Fourth answer"
 	answer="a"
