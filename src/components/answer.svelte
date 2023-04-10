@@ -4,15 +4,24 @@
 
 {#if answer}
 
-<p style="color: green;"> 
+<p class="correct"> 
 		Great job - that was the answer! 
 </p>
 	
 {:else}
 	
-	<p style="color: red;">
+	<p class="incorrect">
 		oh man, that answer wasn't quite right...
 	</p>
 {/if}
 
 
+
+
+.correct {
+	color= green;
+}
+
+.incorret {
+	color= red;
+}
