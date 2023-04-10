@@ -29,7 +29,8 @@ import Score from "../components/score.svelte";
 	answer4="Fourth answer"
 	answer="b"
 	>
-	<div style="text-decoration: underline">
+	<div 
+	style="text-decoration: underline">
 	This is my question?
 	</div>
 </Question>
