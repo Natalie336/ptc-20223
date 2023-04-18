@@ -1,11 +1,13 @@
 <script>
 	import Score from "../components/score.svelte";
+    import Clock from '../components/clock.svelte';
 </script>
 
 <div class="background">
 	<div class="layout">
         <div class="header">
             <Score score={0} />
+            <Clock />
         </div>
         <div class="content">
 		    <slot />
@@ -25,9 +27,6 @@
 	}
 
 	.layout {
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
 
         display: grid;
         grid-template-rows: auto 1fr;
@@ -45,3 +44,4 @@
         justify-content: space-between;
     }
 </style>
+
